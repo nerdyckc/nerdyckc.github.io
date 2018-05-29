@@ -1,0 +1,32 @@
+
+.container {
+  height: 80vh;
+  width: 60vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.field {
+  width: 31%;
+  height: 33.3%;
+  border: 1px solid black;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.circle {
+  background-image: url('./img/circle.png');
+}
+
+.cross {
+  background-image: url('./img/cross.png');
+}
+
+.controls {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
