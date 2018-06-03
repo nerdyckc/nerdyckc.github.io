@@ -2,7 +2,7 @@ html,body {
   margin:0;
   padding:0;
   font-family: Arial, Helvetica, sans-serif;
-  //background-color: skyblue;
+  /* background-color: skyblue; */
 }
 
 #carouselExampleIndicators {
@@ -12,7 +12,6 @@ html,body {
 .navbar {
   opacity: 0.6;
 }
-
 
 .carousel-item {
     height: 50vw;
@@ -25,9 +24,12 @@ html,body {
 #splash_img {
   background:url("../assets/img/nice.jpg") no-repeat center center;
   background-size: cover;
-  //position: relative;
+  /* position: relative; */
   height: 65vw;
   margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 i {
@@ -42,8 +44,6 @@ section #contact {
 }
 
 h1 {
-  display: flex;
-  justify-content: center;
   color: rgb(238, 255, 127);
   visibility: hidden;
   transition-delay: 500ms;
